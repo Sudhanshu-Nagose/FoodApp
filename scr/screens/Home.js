@@ -44,19 +44,20 @@ const Home = ({ navigation }) => {
       },
       {
         name: "Cheese Burger",
-        desc: "100g meat + onion + cheese + Lettuce",
+        desc: "100g paneer + onion + cheese + Lettuce",
         price: 15,
         rating: "4.5",
-        image: require("../images/chicken_burger.png")
+        image: require("../images/cheese.png")
       },
       {
         name: "Nachos Cheese Burger",
         desc: "100g meat + onion + cheese + Lettuce",
         price: 25,
         rating: "4.0",
-        image: require("../images/chicken_burger.png")
+        image: require("../images/nachos.png")
       }
     ],
+    
     Pizza: [
       {
         name: "Veg Pizza",
