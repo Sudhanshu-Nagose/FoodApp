@@ -49,7 +49,7 @@ const BottomTabNavigator = () => {
         }}>
         <Image
           source={iconSrc}
-          tintColor={isFocused ? "#EC3323" : undefined}
+          tintColor={isFocused ? "#EC3323" : "Pink"}
           resizeMode="stretch"
           style={{ width: wp(5), height: wp(5) }}
         />
