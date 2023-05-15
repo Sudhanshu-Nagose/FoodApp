@@ -15,6 +15,7 @@ import {
 
 const primaryColor = "#EC3323";
 const textColor = "#0D0D0D";
+const text = "#5a5a5a";
 
 const Home = ({ navigation }) => {
   const sliderData = [
@@ -340,7 +341,7 @@ const Home = ({ navigation }) => {
                   style={{ color: textColor, fontSize: 18, fontWeight: "500" }}>
                   {item.name}
                 </Text>
-                <Text style={{ fontSize: 14, marginTop: hp(0.5) }}>
+                <Text style={{ fontSize: 14, marginTop: hp(0.5), color:text }}>
                   {item.desc}
                 </Text>
 
@@ -394,7 +395,7 @@ const Home = ({ navigation }) => {
           <Text style={{ fontWeight: "bold", fontSize: 17, color: textColor }}>
             Popular Meal Menu
           </Text>
-          <Text>See All</Text>
+          <Text style={{color:text}}>See All</Text>
         </View>
 
         {popularMeals.map((item, index) => {
@@ -422,7 +423,7 @@ const Home = ({ navigation }) => {
                   style={{ fontWeight: "500", fontSize: 16, color: textColor }}>
                   {item.name}
                 </Text>
-                <Text style={{ marginTop: hp(0.5) }}>{item.desc}</Text>
+                <Text style={{ marginTop: hp(0.5), color:text }}>{item.desc}</Text>
               </View>
               <Text
                 style={{
@@ -456,6 +457,7 @@ const Home = ({ navigation }) => {
         />
         <TextInput
           placeholder="Search"
+          placeholderTextColor="#5a5a5a"
           style={{ fontSize: 17, fontWeight: "500" }}
         />
       </View>
@@ -492,7 +494,7 @@ const Home = ({ navigation }) => {
             resizeMode="stretch"
             style={{ width: wp(3.5), height: wp(5), marginRight: wp(2) }}
           />
-          <Text>Freedom way, Lekki phase</Text>
+          <Text style={{color:text}}>Freedom way, Lekki phase</Text>
         </View>
         <Image
           source={require("../images/profile_icon.png")}
