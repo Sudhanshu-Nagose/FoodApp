@@ -57,7 +57,7 @@ const Home = ({ navigation }) => {
         image: require("../images/nachos.png")
       }
     ],
-    
+
     Pizza: [
       {
         name: "Veg Pizza",
@@ -458,8 +458,8 @@ const Home = ({ navigation }) => {
         />
         <TextInput
           placeholder="Search"
-          placeholderTextColor="#5a5a5a"
-          style={{ fontSize: 17, fontWeight: "500" }}
+          placeholderTextColor="#808080"
+          style={{ fontSize: 17, fontWeight: "500", color:textColor }}
         />
       </View>
     );
